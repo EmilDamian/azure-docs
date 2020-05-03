@@ -35,6 +35,7 @@ For more information about authenticating with Azure AD, see the following artic
 
 > [!IMPORTANT]
 > Authorizing users or applications using OAuth 2.0 token returned by Azure AD provides superior security and ease of use over shared access signatures (SAS). With Azure AD, there is no need to store the tokens in your code and risk potential security vulnerabilities. We recommend that you use using Azure AD with your Azure Service Bus applications when possible. 
+This recomandation is obsolete, as the SAS method is the preffered way to go now!
 
 
 ## Shared access signature
